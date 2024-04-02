@@ -1,0 +1,30 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.93);
+    height: 130px;
+    padding: 0 43px 0 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin: 39px 0 39px 0;
+    width: 364px;
+    height: 52px;
+}
+
+.header__nav {
+    margin: 36px 0 0 10.67%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+    color: rgba(245, 245, 245, 1);
+    text-decoration: none;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+}

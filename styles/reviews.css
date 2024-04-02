@@ -1,0 +1,21 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+
+.page {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: rgba(101, 101, 101, 1);
+    display: flex;
+    height: 100%;
+}
+
+.main__slider-element {
+    display: flex;
+}

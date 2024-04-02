@@ -1,0 +1,42 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.93);
+    height: 130px;
+    padding: 0 43px 0 43px;
+    display: flex;
+}
+
+.footer__number {
+    color: rgba(245, 245, 245, 1);
+    font-weight: 600;
+    margin: 45px 0;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+}
+
+.footer__mail {
+    color: rgba(245, 245, 245, 1);
+    font-weight: 600;
+    margin: 45px 8.17% 0 2.23%;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.footer__media {
+    margin: 39px 14.79% 0 0;
+    width: 448px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__media-icon {
+    width: 50px;
+    height: 100%;
+}
+
+.footer__logo {
+    width: 216px;
+    height: 41px;
+    margin: 44px 0;
+}
