@@ -4,6 +4,29 @@
     padding: 0 43px 0 43px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.header.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    animation-name: header;
+    animation-duration: .2s;
+}
+
+@keyframes header {
+    0% {
+        opacity: 0;
+        top: -130px;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }
 
 .header__logo {

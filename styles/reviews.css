@@ -8,6 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.93);
 }
 
 .main {
@@ -16,6 +17,53 @@
     height: 100%;
 }
 
+.main__slider {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.main__slider-title {
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-right: 24px;
+}
+
 .main__slider-element {
+    padding: 61px 0 0 43px;
+}
+
+.main__slider-review {
     display: flex;
+    margin: 0 0 93px 0;
+}
+
+.main__slider-text {
+    color: white;
+    font-size: 40px;
+    line-height: 48.76px;
+    width: 78.22vw;
+    margin-bottom: 166px;
+}
+
+.swiper-horizontal>.swiper-pagination {
+    width: max-content;
+    right: 21px;
+    bottom: 19px;
+    top: auto;
+    left: auto;
+}
+
+.swiper-pagination-bullet {
+    width: 48px;
+    height: 18px;
+    border-radius: 100px;
+    background-color: white;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.8;
 }
