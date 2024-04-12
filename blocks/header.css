@@ -47,7 +47,11 @@
     text-decoration: none;
     display: flex;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 29.26px;
     text-align: center;
+}
+
+.header__link_active {
+    font-weight: 700;
 }
