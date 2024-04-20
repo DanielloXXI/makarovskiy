@@ -16,7 +16,6 @@
     background-color: rgba(101, 101, 101, 1);
     display: flex;
     flex-direction: column;
-    /* height: 100%; */
     padding: 49px 2.239vw 50px 2.239vw;
 }
 
@@ -43,4 +42,50 @@
 .main__section-video {
     height: 35.55vh;
     width: 35.57vw;
+}
+
+@media screen and (min-width: 830px) and (max-width: 1279px) {
+    .main {
+        padding: 35px 5.5vw 35px 5.5vw;
+    }
+
+    .main__section {
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+
+    .main__section-title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 29.26px;
+        margin-bottom: 54px;
+    }
+
+    .main__section-video {
+        height: 35vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    .main {
+        padding: 35px 8.61vw 17px 8.61vw;
+    }
+
+    .main__section {
+        flex-direction: column;
+        margin-bottom: 61px;
+    }
+
+    .main__section-title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 29.26px;
+        margin-bottom: 63px;
+    }
+
+    .main__section-video {
+        height: 21.48vh;
+        width: 100%;
+    }
 }
