@@ -1,7 +1,7 @@
 let lastScroll = 0;
 const defaultOffset = 130;
 const header = document.querySelector('.header');
-
+const main = document.querySelector('.main');
 // const scrollPosition = () => window.scrollY|| document.documentElement.scrollTop;
 // const containHide = () => header.classList.contains('hide');
 
@@ -25,10 +25,10 @@ document.onscroll = function () {
 
     if (scroll < lastScroll && scroll != 0) {
         header.classList.add('fixed');
-        document.body.style.paddingTop = defaultOffset + 'px';
+        main.style.paddingTop = defaultOffset + 'px';
     } else {
         header.classList.remove('fixed');
-        document.body.removeAttribute('style');
+        main.removeAttribute('style');
     }
     lastScroll = scroll;
 }
