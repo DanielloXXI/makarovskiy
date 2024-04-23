@@ -25,9 +25,11 @@ document.onscroll = function () {
 
     if (scroll < lastScroll && scroll != 0) {
         header.classList.add('fixed');
+        // document.body.style.paddingTop = defaultOffset + 'px';
         main.style.paddingTop = defaultOffset + 'px';
     } else {
         header.classList.remove('fixed');
+        // document.body.removeAttribute('style');
         main.removeAttribute('style');
     }
     lastScroll = scroll;

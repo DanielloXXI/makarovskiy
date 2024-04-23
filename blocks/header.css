@@ -4,7 +4,7 @@
     padding: 0 43px 0 43px;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 5;
     box-sizing: border-box;
 }
 

@@ -6,7 +6,7 @@
 .page {
     font-family: 'Montserrat';
     font-weight: 400;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.93);
@@ -16,8 +16,8 @@
     background-color: rgba(101, 101, 101, 1);
     display: flex;
     justify-content: space-between;
-    /* height: 100%; */
-    padding: 52px 43px 54px 43px;
+    height: 100%;
+    padding: 0 43px 54px 43px;
 }
 
 .main__text {
@@ -31,6 +31,7 @@
     font-weight: 700;
     line-height: 48.76px;
     margin-bottom: 132px;
+    margin-top: 52px;
 }
 
 .main__navigation {
@@ -58,6 +59,7 @@
     overflow: hidden;
     position: relative;
     z-index: 0;
+    margin-top: 52px;
 }
 
 .main__slider-image {
@@ -117,13 +119,19 @@
 
 }
 
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
+    .main {
+        padding: 0 43px 200px 43px;
+    }
+}
+
 @media screen and (max-width: 1279px) {
     .swiper-pagination-bullets {
         display: none;
     }
 
     .main {
-        padding: 44px 43px 20px 43px;
+        padding: 0px 43px 20px 43px;
         flex-direction: column;
     }
 
@@ -133,6 +141,7 @@
     }
 
     .main__title {
+        margin-top: 44px;
         font-size: 36px;
         line-height: 43.88px;
     }

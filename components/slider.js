@@ -7,5 +7,5 @@ var swiper = new Swiper(".mySwiper", {
         // },
     },
     grabCursor: true,
-    loop: true,
+    loop: false,
 });
