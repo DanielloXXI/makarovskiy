@@ -6,7 +6,7 @@
 .page {
     font-family: 'Montserrat';
     font-weight: 400;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.93);
@@ -16,7 +16,8 @@
     background-color: rgba(101, 101, 101, 1);
     display: flex;
     flex-direction: column;
-    padding: 49px 2.239vw 50px 2.239vw;
+    padding: 0 2.239vw 50px 2.239vw;
+    height: 100%;
 }
 
 .main__section {
@@ -25,10 +26,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 79px;
+    margin-top: 49px;
 }
 
 .main__section:last-child {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .main__section-title {

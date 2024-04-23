@@ -6,7 +6,7 @@
 .page {
     font-family: 'Montserrat';
     font-weight: 400;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.93);
@@ -28,16 +28,16 @@
 }
 
 .main__image {
-    height: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
     /* width: 45.67%;
     height: 100%; */
 }
 
 .main__slider {
+    height: 75.925vh;
     width: 45.68vw;
-    height: 100%;
     overflow: hidden;
     position: relative;
     z-index: 0;
