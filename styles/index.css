@@ -87,6 +87,11 @@
     font-weight: 600;
     font-size: 36px;
     cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.main__button:hover {
+    opacity: 0.8;
 }
 
 /* .main__button:last-child {

@@ -9,11 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="../styles/team.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="../vendor/swiper-bundle.min.css">
 
-    <link rel="stylesheet" href="../styles/index.css">
 </head>
 
 <body class="page">
@@ -21,7 +20,7 @@
         <a href="./index.html"><img src="../images/LOGO edu.svg" class="header__logo" alt="Логотип"></a>
         <nav class="header__nav">
             <a href="./seminars.html" class="header__link">выездные <br>семинары</a>
-            <a href="./offline.html" class="header__link">оффлайн <br>уроки</a>
+            <a href="./offline.html" class="header__link header__link_active">оффлайн <br>уроки</a>
             <a href="./" class="header__link">онлайн <br>уроки</a>
             <a href="./team.html" class="header__link">наша <br>команда</a>
             <a href="./works.html" class="header__link">наши <br>работы</a>
@@ -31,40 +30,37 @@
         </nav>
     </header>
     <main class="main">
-        <div class="main__content">
-            <p class="main__text">
-                наша команда во главе с шеф-барбером и руководителем парикмахерского салона <span
-                    class="main__text_bold">MAKAROVSKY |
-                    BEARD&HAIR</span>
-                Алексей Макаровский разработали авторский курс «Барбер с нуля» для людей без опыта работы и курсы
-                повышения квалификации для мастеров
-            </p>
-            <button class="main__button" type="button">
-                оставить заявку
-            </button>
-            <!-- <button class="main__button" type="button">
-                запись на бесплатное занятие
-            </button> -->
-        </div>
-        <div class="main__slider mySwiper">
-            <div class="main__slider-container swiper-wrapper">
-                <div class="main__slider-element swiper-slide">
-                    <img src="../images/img.jpg" class="main__image" alt="Фото Макаровского">
-                </div>
-                <div class="main__slider-element swiper-slide">
-                    <img src="../images/img.jpg" class="main__image" alt="Фото Макаровского">
-                </div>
-                <div class="main__slider-element swiper-slide">
-                    <img src="../images/img.jpg" class="main__image" alt="Фото Макаровского">
-                </div>
-                <div class="main__slider-element swiper-slide">
-                    <img src="../images/img.jpg" class="main__image" alt="Фото Макаровского">
-                </div>
-                <div class="main__slider-element swiper-slide">
-                    <img src="../images/img.jpg" class="main__image" alt="Фото Макаровского">
-                </div>
+        <nav class="main__nav">
+            <a href="#makarovsky" class="main__nav-link">Макаровский</a>
+            <a href="#" class="main__nav-link">Макаровский</a>
+            <a href="#" class="main__nav-link">Макаровский</a>
+            <a href="#" class="main__nav-link">Макаровский</a>
+        </nav>
+        <div class="main__section">
+            <div class="section__text">
+                <h2 class="section__title" id="makarovsky">Алексей Макаровский</h2>
+                <p class="section__paragraph">Амбассадор компании “ESTEL”.</p>
+                <p class="section__paragraph">Алексей Макаровский парикмахер с многолетним опытом работы. На сегодняшний
+                    день является Арт-директором, педагогом и топ-стилистом мужского парикмахерского салона MAKAROVSKY |
+                    BEARD&HAIR в городе Архангельск.</p>
+                <p class="section__paragraph">В профессии 23 года.<br>Работал в техникуме мастером производственного
+                    обучения
+                    по парикмахерскому искусству в течении 5 лет.</p>
+                <p class="section__paragraph">В последние годы успешно принимает участие во всевозможных парикмахерских
+                    конкурсах. И каждый раз как минимум попадает в финал.</p>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="section__slider mySwiper">
+                <div class="section__slider-container swiper-wrapper">
+                    <div class="section__slider-element swiper-slide">
+                        <img src="../images/team1.jpg" class="section__image" alt="Фото Макаровского">
+                    </div>
+                    <div class="section__slider-element swiper-slide">
+                        <img src="../images/team1.jpg" class="section__image" alt="Фото Макаровского">
+                    </div>
+                    <div class="section__slider-element swiper-slide">
+                        <img src="../images/team1.jpg" class="section__image" alt="Фото Макаровского">
+                    </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -92,20 +88,6 @@
             <img src="../images/by NERDS.svg" class="footer__logo" alt="Создано NERDS">
         </div>
     </footer>
-    <div class="popup">
-        <div class="popup__container">
-            <button type="button" class="popup__close-button"></button>
-            <button class="popup__button" type="button">
-                бесплатный онлайн урок
-            </button>
-            <button class="popup__button" type="button">
-                заявка на онлайн урок
-            </button>
-            <button class="popup__button" type="button">
-                заявка на оффлайн урок
-            </button>
-        </div>
-    </div>
     <script type="module" src="../components/popup.js"></script>
     <script type="module" src="../scripts/index.js"></script>
     <script src="../components/header.js"></script>
