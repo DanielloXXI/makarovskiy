@@ -1,11 +1,12 @@
 .header {
     background-color: rgba(0, 0, 0, 0.93);
-    height: 130px;
-    padding: 0 43px 0 43px;
+    min-height: 130px;
+    padding: 0 2.239vw 0 2.239vw;
     display: flex;
     justify-content: space-between;
     z-index: 5;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .header.fixed {
@@ -15,6 +16,16 @@
     width: 100%;
     animation-name: header;
     animation-duration: .2s;
+}
+
+.header__burger {
+    background-image: url(../images/Vector.svg);
+    background-color: rgb(0, 0, 0, 0);
+    width: 47px;
+    height: 31px;
+    border: none;
+    cursor: pointer;
+    display: none;
 }
 
 @keyframes header {
@@ -30,13 +41,12 @@
 }
 
 .header__logo {
-    margin: 39px 0 39px 0;
     width: 364px;
     height: 52px;
 }
 
 .header__nav {
-    margin: 36px 0 0 10.67%;
+    margin: 0 0 0 10.67%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -50,8 +60,39 @@
     font-weight: 400;
     line-height: 29.26px;
     text-align: center;
+    width: max-content;
 }
 
 .header__link_active {
     font-weight: 700;
+}
+
+@media screen and (max-width: 1600px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 833px) {
+    .header__logo {
+        width: 289px;
+        /* height: 44px; */
+    }
+
+
+}
+
+@media screen and (max-width: 449px) {
+    .header__logo {
+        width: 220px;
+        /* height: 44px; */
+    }
+
+
 }
