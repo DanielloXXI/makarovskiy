@@ -26,11 +26,11 @@ window.onresize = () => {
             box.classList.add('section__accordeon-button_active');
         })
     } else {
-        paragraphs.forEach((paragraph) => {
-            paragraph.style.maxHeight = 0;
-        })
-        boxes.forEach((box) => {
-            box.classList.remove('section__accordeon-button_active');
-        })
+        // paragraphs.forEach((paragraph) => {
+        //     paragraph.style.maxHeight = 0;
+        // })
+        // boxes.forEach((box) => {
+        //     box.classList.remove('section__accordeon-button_active');
+        // })
     }
 };
