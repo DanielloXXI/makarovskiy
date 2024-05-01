@@ -82,6 +82,7 @@ html {
     line-height: 43.88px;
     color: white;
     width: 30.57vw;
+    height: auto;
 }
 
 .section__paragraph_second {
@@ -116,4 +117,99 @@ html {
 
 .section__paragraph_measure {
     width: 100%;
+}
+
+.section__button_unactive {
+    display: none;
+}
+
+.section__accordeon-button {
+    display: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .main__title:nth-child(2) {
+        margin-top: 43px;
+    }
+
+    .main__nav {
+        display: none;
+    }
+
+    .section__button_active {
+        display: none;
+    }
+
+    .section__button_unactive {
+        display: block;
+        width: 415px;
+        height: 68px;
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .main__section {
+        flex-direction: column;
+        justify-content: initial;
+        margin: 0 99px 43px 43px;
+    }
+
+    .section__paragraph {
+        width: 100%;
+    }
+
+    .section__accordeon-button {
+        display: block;
+        width: 43px;
+        height: 23px;
+        background-color: rgb(0, 0, 0, 0);
+        border: none;
+        cursor: pointer;
+        background-image: url(../images/down.svg);
+        background-size: cover;
+        margin: 23px auto 36px auto;
+    }
+
+    .section__accordeon-button_active {
+        background-image: url(../images/up.svg);
+    }
+
+    .section__paragraph-box {
+        position: relative;
+        overflow: hidden;
+        max-height: 0;
+        transition: 0.3s;
+        margin-top: 29px;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    .main__title {
+        margin: 0 0 57px 2.3vw;
+        font-size: 34px;
+    }
+
+    .main__section {
+        margin: 0 0 43px 2.3vw;
+    }
+
+    .main__section:last-child {
+        margin: 0 0 43px 2.3vw;
+    }
+
+    .section__paragraph {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .section__button_unactive {
+        display: block;
+        width: 290px;
+        height: 68px;
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+    }
 }
