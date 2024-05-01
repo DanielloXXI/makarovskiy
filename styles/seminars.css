@@ -3,6 +3,10 @@
 @import url(../blocks/footer.css);
 @import url(../blocks/popup.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 .page {
     font-family: 'Montserrat';
     font-weight: 400;
