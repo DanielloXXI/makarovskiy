@@ -132,3 +132,26 @@
         max-width: calc(100% - 86px);
     }
 }
+
+@media screen and (max-width: 520px) {
+    .main__slider-title {
+        font-size: 32px;
+    }
+
+    .main__slider-text {
+        font-size: 28px;
+        line-height: 40px;
+        margin-left: 2.3vw;
+        max-width: 100%;
+    }
+
+    .main__slider-star {
+        width: 42px;
+        height: 48px;
+    }
+
+    .main__slider-review {
+        margin: 0 0 20px 2.3vw;
+    }
+
+}

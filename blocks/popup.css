@@ -121,10 +121,20 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .popup__button {
+        width: 290px;
+        height: 70px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .popup__header-close-button {
         width: 25px;
         height: 25px;
         background-size: cover;
     }
+
 }
