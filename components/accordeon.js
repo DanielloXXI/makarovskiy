@@ -37,8 +37,6 @@ window.onresize = () => {
     if (window.screen.width < 1600) {
         boxes.forEach((box) => {
             if (box.className.includes('section__accordeon-button_active')) {
-                console.log(123);
-                console.log(box.previousElementSibling);
                 box.previousElementSibling.style.maxHeight = box.previousElementSibling.scrollHeight + 'px';
             }
         })
