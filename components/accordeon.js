@@ -18,19 +18,29 @@ function boxHandler(e) {
 }
 
 window.onresize = () => {
-    if (window.screen.width > 1600) {
-        paragraphs.forEach((paragraph) => {
-            paragraph.style.maxHeight = paragraph.scrollHeight + 'px';
-        })
+    // if (window.screen.width > 1600) {
+    //     paragraphs.forEach((paragraph) => {
+    //         paragraph.style.maxHeight = paragraph.scrollHeight + 'px';
+    //     })
+    //     boxes.forEach((box) => {
+    //         box.classList.add('section__accordeon-button_active');
+    //     })
+    // } else {
+    //     paragraphs.forEach((paragraph) => {
+    //         paragraph.style.maxHeight = 0;
+    //     })
+    //     boxes.forEach((box) => {
+    //         box.classList.remove('section__accordeon-button_active');
+    //     })
+    // }
+
+    if (window.screen.width < 1600) {
         boxes.forEach((box) => {
-            box.classList.add('section__accordeon-button_active');
-        })
-    } else {
-        paragraphs.forEach((paragraph) => {
-            paragraph.style.maxHeight = 0;
-        })
-        boxes.forEach((box) => {
-            box.classList.remove('section__accordeon-button_active');
+            if (box.className.includes('section__accordeon-button_active')) {
+                console.log(123);
+                console.log(box.previousElementSibling);
+                box.previousElementSibling.style.maxHeight = box.previousElementSibling.scrollHeight + 'px';
+            }
         })
     }
 };
