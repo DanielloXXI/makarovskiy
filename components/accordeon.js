@@ -18,7 +18,7 @@ function boxHandler(e) {
 }
 
 window.onresize = () => {
-    if (window.innerWidth > 1600) {
+    if (window.screen.width > 1600) {
         paragraphs.forEach((paragraph) => {
             paragraph.style.maxHeight = paragraph.scrollHeight + 'px';
         })
@@ -26,11 +26,11 @@ window.onresize = () => {
             box.classList.add('section__accordeon-button_active');
         })
     } else {
-        // paragraphs.forEach((paragraph) => {
-        //     paragraph.style.maxHeight = 0;
-        // })
-        // boxes.forEach((box) => {
-        //     box.classList.remove('section__accordeon-button_active');
-        // })
+        paragraphs.forEach((paragraph) => {
+            paragraph.style.maxHeight = 0;
+        })
+        boxes.forEach((box) => {
+            box.classList.remove('section__accordeon-button_active');
+        })
     }
 };
