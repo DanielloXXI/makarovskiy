@@ -1,0 +1,65 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/popup.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.93);
+}
+
+.main {
+    background-color: rgba(101, 101, 101, 1);
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.main__nav {
+    background-color: rgba(0, 0, 0, 1);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main__nav-link {
+    color: #F5F5F5;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 43.88px;
+    margin-left: 60px;
+}
+
+.main__nav-link:first-child {
+    margin: 0;
+}
+
+.main__nav-link_active {
+    font-weight: 600;
+}
+
+.main__text {
+    margin: 46px 0 90px 43px;
+}
+
+.main__paragraph {
+    color: white;
+    font-size: 40px;
+    line-height: 48.76px;
+    margin-top: 30px;
+}
+
+.main__paragraph:first-child {
+    margin: 0;
+}

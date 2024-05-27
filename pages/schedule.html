@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makarovsky</title>
+    <link rel="icon" href="../images/LOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/schedule.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <a href="../index.html"><img src="../images/LOGO edu.svg" class="header__logo" alt="Логотип"></a>
+        <nav class="header__nav">
+            <a href="./seminars.html" class="header__link header__link_active">выездные <br>семинары</a>
+            <a href="./offline.html" class="header__link">оффлайн <br>уроки</a>
+            <a href="../" class="header__link">онлайн <br>уроки</a>
+            <a href="./team.html" class="header__link">наша <br>команда</a>
+            <a href="./works.html" class="header__link">наши <br>работы</a>
+            <a href="./videostories.html" class="header__link">видео <br>истории</a>
+            <a href="./reviews.html" class="header__link">отзывы <br>о нас</a>
+            <a href="./places.html" class="header__link">наши <br>салоны</a>
+        </nav>
+        <button type="button" class="header__burger">
+        </button>
+    </header>
+    <main class="main">
+        <nav class="main__nav">
+            <a href="./schedule.html" class="main__nav-link main__nav-link_active">расписание</a>
+            <a href="./seminars.html" class="main__nav-link">СТРАТЕГИЯ ПОБЕДЫ</a>
+            <a href="../" class="main__nav-link">сервис в салоне</a>
+        </nav>
+        <div class="main__text">
+            <p class="main__paragraph">14 апреля: Екатеринбург - СТРАТЕГИЯ ПОБЕДЫ</p>
+            <p class="main__paragraph">21 апреля: Иркутск - сервис в салоне</p>
+            <p class="main__paragraph">8 мая: *** - ***</p>
+            <p class="main__paragraph">14 апреля: Екатеринбург - СТРАТЕГИЯ ПОБЕДЫ</p>
+            <p class="main__paragraph">21 апреля: Иркутск - сервис в салоне</p>
+            <p class="main__paragraph">8 мая: *** - ***</p>
+            <p class="main__paragraph">14 апреля: Екатеринбург - СТРАТЕГИЯ ПОБЕДЫ</p>
+            <p class="main__paragraph">21 апреля: Иркутск - сервис в салоне</p>
+            <p class="main__paragraph">8 мая: *** - ***</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__data footer__data_main">
+            <a href="tel: +79000000000" class="footer__number">+7 (900) 000-00-00</a>
+            <span class="footer__mail">email@email.email</span>
+        </div>
+        <div class="footer__media">
+            <a href="#" class="footer__media-link"><img src="../images/telegram.svg" alt="Телеграм"
+                    class="footer__media-icon"></a>
+            <a href="#" class="footer__media-link"><img src="../images/vk.svg" alt="Вконтакте"
+                    class="footer__media-icon"></a>
+            <a href="#" class="footer__media-link"><img src="../images/instagram.svg" alt="Инстаграм"
+                    class="footer__media-icon"></a>
+            <a href="#" class="footer__media-link"><img src="../images/map.svg" alt="2 ГИС"
+                    class="footer__media-icon"></a>
+            <a href="#" class="footer__media-link"><img src="../images/dzen.svg" alt="Яндекс дзен"
+                    class="footer__media-icon"></a>
+        </div>
+        <div class="footer__additional">
+            <div class="footer__data footer__data_additional">
+                <a href="tel: +79000000000" class="footer__number">+7 (900) 000-00-00</a>
+                <span class="footer__mail">email@email.email</span>
+            </div>
+            <img src="../images/by NERDS.svg" class="footer__logo" alt="Создано NERDS">
+        </div>
+    </footer>
+    <div class="popup popup__header">
+        <div class="popup__container popup__header-container">
+            <div class="popup__header_block">
+                <a href="../index.html"><img src="../images/LOGO edu.svg" class="header__logo" alt="Логотип"></a>
+                <button type="button" class="popup__close-button popup__header-close-button"></button>
+            </div>
+            <div class="popup__header-line"></div>
+            <nav class="popup__header-nav">
+                <a href="./seminars.html" class="header__link header__link_active">выездные семинары</a>
+                <a href="./offline.html" class="header__link">оффлайн уроки</a>
+                <a href="../" class="header__link">онлайн уроки</a>
+                <a href="./team.html" class="header__link">наша команда</a>
+                <a href="./works.html" class="header__link">наши работы</a>
+                <a href="./videostories.html" class="header__link">видео истории</a>
+                <a href="./reviews.html" class="header__link">отзывы о нас</a>
+                <a href="./places.html" class="header__link">наши салоны</a>
+            </nav>
+        </div>
+    </div>
+    <div class="popup popup__main">
+        <div class="popup__container">
+            <button type="button" class="popup__close-button"></button>
+            <button class="popup__button" type="button">
+                бесплатный онлайн урок
+            </button>
+            <button class="popup__button" type="button">
+                заявка на онлайн урок
+            </button>
+            <button class="popup__button" type="button">
+                заявка на оффлайн урок
+            </button>
+        </div>
+    </div>
+    <script type="module" src="../components/popup.js"></script>
+    <script type="module" src="../scripts/index.js"></script>
+    <script src="../components/header.js"></script>
+</body>
+
+</html>
