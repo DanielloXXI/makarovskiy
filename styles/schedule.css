@@ -69,3 +69,36 @@ html {
         display: none;
     }
 }
+
+@media screen and (min-width: 830px) and (max-width: 1100px) {
+    .main__text {
+        margin: 61px 0 250px 43px;
+    }
+
+    .main__paragraph {
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    .main__text {
+        margin: 42px 0 47px 43px;
+    }
+
+    .main__paragraph {
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main__text {
+        margin: 42px 0 47px 23px;
+    }
+
+    .main__paragraph {
+        font-size: 20px;
+        line-height: normal;
+    }
+}

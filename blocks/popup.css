@@ -13,6 +13,14 @@
     transition: visibility 0.5s, opacity 0.5s linear;
     backdrop-filter: blur(10px);
     z-index: 999;
+    -ms-overflow-style: none;
+    /* IE и Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.popup::-webkit-scrollbar {
+    display: none;
 }
 
 /* .popup::before {
@@ -102,21 +110,19 @@
 }
 
 .popup__header-nav {
-    /* min-height: 577px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-.popup__header-nav > .header__link {
+.popup__header-nav>.header__link {
     margin-top: 48px;
 }
 
-.popup__header-nav > .header__link:last-child {
+.popup__header-nav>.header__link:last-child {
     margin-bottom: 13px;
 }
 
-.popup__header-nav > .header__link_margin {
+.popup__header-nav>.header__link_margin {
     margin-top: 0;
 }
 
