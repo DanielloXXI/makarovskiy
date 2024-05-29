@@ -63,3 +63,9 @@ html {
 .main__paragraph:first-child {
     margin: 0;
 }
+
+@media screen and (max-width: 1600px) {
+    .main__nav {
+        display: none;
+    }
+}

@@ -111,3 +111,15 @@ html {
     color: #100500;
     margin-right: 2.239vw;
 }
+
+@media screen and (max-width: 1600px) {
+    .main__nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 1279px) {}
+
+@media screen and (max-width: 829px) {}
+
+@media screen and (max-width: 520px) {}
