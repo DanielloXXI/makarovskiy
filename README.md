@@ -1,5 +1,5 @@
 # Makarovsky barbershop website
-link: https://danielloxxi.github.io/makarovskiy/
+Link: https://danielloxxi.github.io/makarovskiy/
 
 It is under development (we are waiting for page content from the customer).
 
