@@ -1,6 +1,6 @@
-# Сайт барбершопа Makarovskiy
-Ссылка на сайт: https://danielloxxi.github.io/makarovskiy/
+# Makarovsky barbershop website
+link: https://danielloxxi.github.io/makarovskiy/
 
-Находится в разработке (ждём содержания страниц от заказчика).
+It is under development (we are waiting for page content from the customer).
 
 <img src="./images/danielloxxi.github.io_makarovskiy_ (1).png" alt="Фото проекта">
